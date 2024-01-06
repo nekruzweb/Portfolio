@@ -203,6 +203,10 @@ section {
     color: var(--bg-color);
 }
 
+.download-btn i {
+    font-size: 20px;
+    margin-left: 3px;
+}
 
 .btn-box .btn::before {
     content: '';
@@ -219,6 +223,7 @@ section {
 .btn-box .btn:hover::before {
     width: 100%;
 }
+
 
 .home-sci {
     position: absolute;
@@ -547,36 +552,44 @@ section {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 80%;
+    width: 95%;
+    /* HTML */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 65%;
+    width: 80%;
+    /* CSS */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 45%;
+    width: 65%;
+    /* JavaSicript */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 40%;
+    width: 55%;
+    /* REACT */
 }
 
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 60%;
+    width: 70%;
+    /* Web Design */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 40%;
+    width: 70%;
+    /* Web Developerment */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 60%;
+    width: 50%;
+    /* Graphic Design */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 40%;
+    /* SEO Marketing */
 }
 /*......⬆️⬆️⬆️.................... skills section design.................... */
 
@@ -829,6 +842,11 @@ section:nth-child(odd) .animate.scroll,
         background: var(--bg-color);
     }
 
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+
     #menu-icon {
         display: block;
     }
@@ -923,6 +941,7 @@ section:nth-child(odd) .animate.scroll,
     .home.show-animate {
         height: 100px;
     }
+
 }
 
 @media (max-width: 520px) {
